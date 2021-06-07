@@ -1,0 +1,22 @@
+.carousel {
+  display: flex;
+  margin: 50px;
+}
+
+.buttons {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  
+  .btn-left {
+    cursor: pointer;
+    position: relative;
+    right: 185px;
+  }
+
+  .btn-right {
+    cursor: pointer;
+    position: relative;
+    left: 185px;
+  }
+}
